@@ -6,7 +6,7 @@
 
 ## 当前项目
 
-### [2026指纹浏览器评测与选择指南](https://github.com/ZkingWorkgo/fingerprint-browser)
+### [2026 指纹浏览器怎么选？6款主流产品对比](https://github.com/ZkingWorkgo/fingerprint-browser)
 
 整理主流指纹浏览器与反检测浏览器的功能、价格、浏览器内核、平台支持、自动化能力、团队功能和版本变化。
 
