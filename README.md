@@ -14,6 +14,14 @@
 - **覆盖方向：** 指纹环境、隐私与数据安全、自动化、团队协作、平台兼容性及价格
 - **项目内容：** 评估方法、产品资料、来源证据、变化记录与后续测试结果
 
+### [2026 浏览器指纹检测工具怎么选？8个工具对比与结果解读](https://github.com/ZkingWorkgo/browser-fingerprint-checkers)
+
+对比 BrowserLeaks、CreepJS、Cover Your Tracks、AmIUnique、FingerprintJS、BrowserScan、Pixelscan 与 IPhey，解释不同工具检测的信号、结果含义与证据边界。
+
+- **当前状态：** 首版已发布，工具资料持续核查
+- **覆盖方向：** IP、DNS、WebRTC、TLS、Canvas、WebGL、环境一致性、自动化与唯一性
+- **项目内容：** 工具对比、检测维度、结果解读、来源账本与可复现测试模板
+
 ### [2026年SMS接码平台怎么选？10个平台对比](https://github.com/ZkingWorkgo/sms-verification-platforms)
 
 整理10个SMS接码与虚拟号码平台的号码类型、国家范围、价格、退款、号码保留、API/MCP和公开成功率证据。
