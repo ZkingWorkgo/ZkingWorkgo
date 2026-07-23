@@ -1,15 +1,15 @@
-# 指纹浏览器工具生态指南
+# 指纹浏览器生态指南
 
 面向指纹浏览器用户的中文工具生态研究与项目索引，持续整理指纹浏览器、代理IP、浏览器与网络环境检测、SMS接码与验证、临时邮箱、虚拟信用卡、随机测试数据、云手机及浏览器自动化工具。
 
 本账号采用“一项主题，一个仓库”的方式组织内容。各主题仓库分别记录评估方法、产品价格、版本变化、来源日期与可核查证据，避免把不同工具简单堆积成一份推荐清单。
 
-> 🌐 **研究网站：** [ZkingWorkgo 指纹浏览器工具生态指南](https://zkingworkgo.github.io/)  
-> 集中浏览已经发布的研究主题、评估方法、工具分类与后续研究范围。
+> 🌐 **研究网站：** [指纹浏览器生态指南](https://fingerprint-browser-guide.github.io/)  
+> 集中浏览已发布研究、研究框架、评估方法、工具分类与证据边界。
 
 ## 当前项目
 
-### [2026 指纹浏览器怎么选？6款主流产品对比](https://github.com/ZkingWorkgo/fingerprint-browser)
+### [2026 指纹浏览器怎么选？6款主流产品对比](https://github.com/fingerprint-browser-guide/fingerprint-browser)
 
 整理主流指纹浏览器与反检测浏览器的功能、价格、浏览器内核、平台支持、自动化能力、团队功能和版本变化。
 
@@ -17,7 +17,7 @@
 - **覆盖方向：** 指纹环境、隐私与数据安全、自动化、团队协作、平台兼容性及价格
 - **项目内容：** 评估方法、产品资料、来源证据、变化记录与后续测试结果
 
-### [2026 浏览器指纹检测工具怎么选？8个工具对比与结果解读](https://github.com/ZkingWorkgo/browser-fingerprint-checkers)
+### [2026 浏览器指纹检测工具怎么选？8个工具对比与结果解读](https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers)
 
 对比 BrowserLeaks、CreepJS、Cover Your Tracks、AmIUnique、FingerprintJS、BrowserScan、Pixelscan 与 IPhey，解释不同工具检测的信号、结果含义与证据边界。
 
@@ -25,13 +25,26 @@
 - **覆盖方向：** IP、DNS、WebRTC、TLS、Canvas、WebGL、环境一致性、自动化与唯一性
 - **项目内容：** 工具对比、检测维度、结果解读、来源账本与可复现测试模板
 
-### [2026年SMS接码平台怎么选？10个平台对比](https://github.com/ZkingWorkgo/sms-verification-platforms)
+### [2026年SMS接码平台怎么选？10个平台对比](https://github.com/fingerprint-browser-guide/sms-verification-platforms)
 
 整理10个SMS接码与虚拟号码平台的号码类型、国家范围、价格、退款、号码保留、API/MCP和公开成功率证据。
 
 * **当前状态：** 首版已发布，公开资料持续核查
 * **覆盖方向：** 一次性激活、短期租用、长期保号、公共号码、价格、退款与接口
 * **项目内容：** 完整对比文章、结构化CSV、官方来源账本、成功率证据矩阵与评估方法
+
+## 已建立的研究框架
+
+以下 6 个主题仓库已经建立资料结构，但在完成来源核验前，**不发布产品排名、最佳推荐或未经验证的成功率**。
+
+| 主题 | 仓库 | 当前状态 |
+|---|---|---|
+| 代理 IP 与网络环境 | [proxy-ip-services](https://github.com/fingerprint-browser-guide/proxy-ip-services) | 框架已建立，资料核验中 |
+| 临时邮箱与一次性邮箱 | [temporary-email-services](https://github.com/fingerprint-browser-guide/temporary-email-services) | 框架已建立，资料核验中 |
+| 虚拟信用卡平台 | [virtual-credit-card-platforms](https://github.com/fingerprint-browser-guide/virtual-credit-card-platforms) | 框架已建立，资料核验中 |
+| 随机与合成测试数据 | [random-data-generators](https://github.com/fingerprint-browser-guide/random-data-generators) | 框架已建立，资料核验中 |
+| 云手机与移动设备云 | [cloud-phone-platforms](https://github.com/fingerprint-browser-guide/cloud-phone-platforms) | 框架已建立，资料核验中 |
+| 浏览器自动化、RPA 与 MCP | [browser-automation-tools](https://github.com/fingerprint-browser-guide/browser-automation-tools) | 框架已建立，资料核验中 |
 
 ## 研究范围
 
@@ -47,7 +60,7 @@
 | 云手机 | 安卓环境、设备配置、网络设置、数据保留、批量管理及自动化 |
 | 浏览器自动化 | Playwright、Puppeteer、Selenium、RPA、API与任务编排 |
 
-> 研究范围不代表所有主题均已完成。只有达到基本内容和证据要求的项目，才会建立公开仓库并加入“当前项目”。
+> 已建立仓库不等于已经完成测评。“当前项目”表示已有可阅读的公开研究；“研究框架”表示字段和证据规则已建立，但结论仍待核验。
 
 ## 信息如何整理
 
@@ -79,4 +92,5 @@
 
 如发现价格、功能、版本或来源信息已经变化，请在对应主题仓库提交Issue，并尽量附上官方页面、公开文档、截图日期或可以验证的复现步骤。
 
-**主页最近更新：2026-07-22**
+**主页最近更新：2026-07-23**
+
